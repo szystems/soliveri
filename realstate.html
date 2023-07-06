@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme2.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,7 +21,7 @@
 
 
     <!-- TOP NAV -->
-    <div class="top-nav" id="home">
+    <div class="top-nav">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto">
@@ -47,16 +46,16 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="construccion.html">Construcción</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="realstate.html">Real Estate</a>
+                        <a class="nav-link active" href="realstate.html">Real Estate</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="publicidad.html">Publicidad</a>
@@ -68,81 +67,139 @@
         </div>
     </nav>
 
-    <!-- SLIDER -->
-    <div class="owl-carousel owl-theme hero-slider">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Construcción</h1>
-                        <a href="construccion.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Real Estate</h1>
-                        <a href="realstate.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Publicidad</h1>
-                        <a href="publicidad.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="bg-light" >
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h6>Soliveri Corporativo</h6>
-                        <h1>¿Quiénes somos?</h1>
-                        <p class="mx-auto">Somos un corporativo que ofrece una amplia gama de servicios de alta calidad que satisfacen las necesidades de nuestros clientes. Desde la construcción de viviendas y edificios comerciales hasta la compra, venta y alquiler de propiedades, nuestro objetivo es brindar soluciones integrales y personalizadas.</p>
-                        <p class="mx-auto">En conjunto, nuestros servicios permiten a nuestros clientes alcanzar sus objetivos de manera más efectiva y eficiente.</p>
+                        <!-- <h6>Blog</h6> -->
+                        <img src="img/soliveri/logos/LogoSRE.png" alt="" class="img-thumbnail ancho">
+                        <p class="mx-auto">Con base a nuestra experiencia comercial
+                            por más de 18 años, conociendo el
+                            mercado inmobiliario de Quetzaltenango,
+                            brindamos el servicio de Dirección
+                            Comercial a largo plazo para que su
+                            inversión este segura, desarrollamos
+                            estrategias comerciales para proyectos
+                            inmobiliarios</p>
+                        <br>
+                        <h1>Servicios</h1>
+                        <p class="mx-auto">Outsourcing en la etapa de Comercialización para proyectos Inmobiliarios</p>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/dirección-comercial.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Dirección Comercial</h5>
+                            <!-- <p>Ofrecemos servicios de estrategia y manejo de redes sociales, creatividad y desarrollo de contenido.</p> -->
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/desembolso-hipotecario.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Gestión de desembolso de créditos hipotecarios de los cliente</h5>
+                            <!-- <p>Desarrollo en plataformas web (Páginas web, Landing pages, Micrositios, Aplicaciones, Tiendas online entre otras).</p> -->
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/Marketing-digital.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Gerencia de Marketing Digital</h5>
+                            <!-- <p>Conceptualización de marca e identidad corporativa/Rebranding.</p> -->
+                        </div>
+                    </article>
+                </div>
+                
             </div>
         </div>
     </section>
 
-    <!-- MILESTONE -->
-    <section id="milestone">
-        <div class="container">
-            <div class="row text-center justify-content-center gy-4">
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
+    <section class="bg-light" id="reviews">
+
+        <div class="owl-theme owl-carousel reviews-slider container">
+            <div class="review">
+                <div class="person">
+                    <!-- <img src="img/team_1.jpg" alt=""> -->
+                    <h5><b><u>Dirección Comercial</u></b></h5>
+                    <!-- <small>Market Development Manager</small> -->
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
+                <h3>Planeamos estrategias comerciales para
+                    su proyecto inmobiliario maximizando los
+                    ingresos y beneficios a través del
+                    desarrollo y aplicación de políticas
+                    comerciales adecuadas para alcanzar los
+                    objetivos y llegar a los resultados
+                    financieros esperados.
+                    Nuestro objetivo principal es conseguir
+                    clientes potenciales y concretar buenos
+                    negocios.</h3>
+                <!-- <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class="bx bxs-star-half"></i>
+                </div> -->
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <!-- <img src="img/team_2.jpg" alt=""> -->
+                    <h5><b><u>Dirección Comercial</u></b></h5>
+                    <!-- <small>Market Development Manager</small> -->
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
+                <h3>La remuneración de nuestros servicios en la dirección
+                    comercial se divide en cinco etapas que deben ser
+                    planeadas con el asesoramiento y gestión de nuestros
+                    asociados para el buen funcionamiento de todas las
+                    áreas en la comercialización del proyecto.</h3>
+
+                <div class="stars">
+                    <ul class="list-group">
+                        <li class="list-group-item">1. Asesoramiento en la etapa del lanzamiento del proyecto</li>
+                        <li class="list-group-item">2. Preventa y venta del proyecto</li>
+                        <li class="list-group-item">3. Gestión de desembolso de créditos hipotecarios de los clientes</li>
+                        <li class="list-group-item">4. Pasos legales y documentación</li>
+                        <li class="list-group-item">5. Entrega del inmueble</li>
+                    </ul>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <!-- <img src="img/team_3.jpg" alt=""> -->
+                    <h5><b><u>Dirección Comercial</u></b></h5>
+                    <!-- <small>Market Development Manager</small> -->
                 </div>
+                <h3>Hemos participado en la etapa de preventa y venta de 22 proyectos inmobiliarios que nos han brindado experiencia en ventas.</h3>
+                <h3>Nuestra experiencia en
+                    venta de proyectos
+                    inmobiliarios nos
+                    permiten garantizar los
+                    resultados comerciales
+                    de su Desarrollo
+                    Inmobiliario</h3>
+                <!-- <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class="bx bxs-star-half"></i>
+                </div> -->
+                <i class='bx bxs-quote-alt-left'></i>
             </div>
         </div>
     </section>
@@ -153,47 +210,61 @@
                 <div class="col-12">
                     <div class="intro">
                         <!-- <h6>Work</h6> -->
-                        <h1>Nuestros Clientes</h1>
+                        <h1>Galeria y Proyectos</h1>
                         <!-- <p class="mx-auto">Somos una empresa de publicidad con más de 10 años de experiencia, utilizamos nuestras habilidades creativas y experiencia en marketing para ayudar a nuestros clientes a promocionar sus negocios de manera efectiva. Nos aseguramos de entender las necesidades y objetivos de nuestros clientes, para desarrollar una estrategia de marketing personalizada que les permita alcanzar su audiencia de manera efectiva y obtener los resultados deseados.</p> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div id="projects-slider2" class="owl-theme2 owl-carousel">
+        <div id="projects-slider" class="owl-theme owl-carousel">
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete1.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Real Estate</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete2.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Construcción</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete5.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Publicidad</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete3.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Real Estate</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
-
-            
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="img/soliveri/slide/Carrete4.jpg" alt="">
+                <div class="content">
+                    <h2>Construcción</h2>
+                    <!-- <h6>Website Design</h6> -->
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="img/soliveri/slide/Carrete6.jpg" alt="">
+                <div class="content">
+                    <h2>Publicidad</h2>
+                    <!-- <h6>Website Design</h6> -->
+                </div>
+            </div>
         </div>
     </section>
 
@@ -206,7 +277,6 @@
                         <p>En conjunto, nuestros servicios permiten a nuestros clientes alcanzar sus objetivos de manera más efectiva y eficiente.</p>
                         <div class="col-auto social-icons">
                             <a href="https://www.facebook.com/corporativosoliveri"><i class='bx bxl-facebook'></i></a>
-                            <!-- <a href="#"><i class='bx bxl-twitter'></i></a> -->
                             <a href="https://www.instagram.com/solivericorporativo/"><i class='bx bxl-instagram'></i></a>
                             <a href="https://www.youtube.com/@SoliveriCorporativo"><i class='bx bxl-youtube'></i></a>
                             <a href="https://wa.me/message/EQ6GVRLZR756D1"><i class='bx bxl-whatsapp'></i></a>
@@ -225,7 +295,6 @@
             Diseñado por <a href="http://szystems.com"><font color="white">Szystems</font></a></span></strong> & <strong><span><a href="http://solivericorporativo.com"><font color="white">R-Publicidad</font></a>
         </div>
     </footer>
-
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

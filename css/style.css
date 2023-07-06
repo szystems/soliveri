@@ -31,6 +31,10 @@ img {
     width: 100%;
 }
 
+.ancho {
+    width: 534px;
+}
+
 a {
     color: var(--dark);
     transition: all 0.4s ease;
@@ -98,14 +102,21 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/soliveri/slide/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/soliveri/slide/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/soliveri/slide/4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,8 +206,8 @@ section {
 }
 
 .btn-brand:hover {
-    background-color: #d64022;
-    border-color: #d64022;
+    background-color: #8f7f25;
+    border-color: #8f7f25;
     color: #fff;
 }
 
@@ -228,7 +239,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(8, 32, 50, 0.8),rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -475,7 +486,7 @@ footer .social-icons a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: yellow;
     z-index: 99999;
     position: fixed;
     left: 0;

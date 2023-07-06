@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme2.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,7 +21,7 @@
 
 
     <!-- TOP NAV -->
-    <div class="top-nav" id="home">
+    <div class="top-nav">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto">
@@ -47,10 +46,10 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="construccion.html">Construcción</a>
@@ -59,7 +58,7 @@
                         <a class="nav-link" href="realstate.html">Real Estate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="publicidad.html">Publicidad</a>
+                        <a class="nav-link active" href="publicidad.html">Publicidad</a>
                     </li>
                 </ul>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -68,81 +67,109 @@
         </div>
     </nav>
 
-    <!-- SLIDER -->
-    <div class="owl-carousel owl-theme hero-slider">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Construcción</h1>
-                        <a href="construccion.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Real Estate</h1>
-                        <a href="realstate.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <!-- <h6 class="text-white text-uppercase">design Driven for professional</h6> -->
-                        <h1 class="display-3 my-4">Publicidad</h1>
-                        <a href="publicidad.html" class="btn btn-brand">Ver mas...</a>
-                        <!-- <a href="#" class="btn btn-outline-light ms-3">Our work</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="bg-light" >
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h6>Soliveri Corporativo</h6>
-                        <h1>¿Quiénes somos?</h1>
-                        <p class="mx-auto">Somos un corporativo que ofrece una amplia gama de servicios de alta calidad que satisfacen las necesidades de nuestros clientes. Desde la construcción de viviendas y edificios comerciales hasta la compra, venta y alquiler de propiedades, nuestro objetivo es brindar soluciones integrales y personalizadas.</p>
-                        <p class="mx-auto">En conjunto, nuestros servicios permiten a nuestros clientes alcanzar sus objetivos de manera más efectiva y eficiente.</p>
+                        <!-- <h6>Blog</h6> -->
+                        <img src="img/soliveri/logos/LogoSP.png" alt="" class="img-thumbnail ancho">
+                        <p class="mx-auto">Somos una empresa de publicidad con más de 10 años de experiencia, utilizamos nuestras habilidades creativas y experiencia en marketing para ayudar a nuestros clientes a promocionar sus negocios de manera efectiva. Nos aseguramos de entender las necesidades y objetivos de nuestros clientes, para desarrollar una estrategia de marketing personalizada que les permita alcanzar su audiencia de manera efectiva y obtener los resultados deseados.</p>
+                        <br>
+                        <h1>Servicios</h1>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- MILESTONE -->
-    <section id="milestone">
-        <div class="container">
-            <div class="row text-center justify-content-center gy-4">
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/social-media.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Social Media</h5>
+                            <p>Ofrecemos servicios de estrategia y manejo de redes sociales, creatividad y desarrollo de contenido.</p>
+                        </div>
+                    </article>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/Sitios-Web.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Sitios Web</h5>
+                            <p>Desarrollo en plataformas web (Páginas web, Landing pages, Micrositios, Aplicaciones, Tiendas online entre otras).</p>
+                        </div>
+                    </article>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/branding.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Branding</h5>
+                            <p>Conceptualización de marca e identidad corporativa/Rebranding.</p>
+                        </div>
+                    </article>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/foto-y-video.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Producción de Video y Fotografía</h5>
+                            <p>Producción audiovisual formado por profesionales de producción, post producción de video, fotografías y audios.</p>
+                        </div>
+                    </article>
                 </div>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/ilustracion.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Ilustración</h5>
+                            <p>Ilustración comercial, creación de personajes y muralismo.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/marketing.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Marketing</h5>
+                            <p>Convertir las conductas, hábitos y necesidades de las personas en insights, claves que permitan construir una estrategia capaz de establecer relaciones emocionales con la marca.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/Publicidad.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Publicidad</h5>
+                            <p>Conceptualizar, desarrollar y ejecutar campañas. Encontrar formas creativas de crear experiencias que generen conexiones con la marca.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3">
+                    <article class="blog-post">
+                        <img src="img/soliveri/otros/diseño-grafico.jpg" alt="">
+                        <!-- <a href="#" class="tag">Web Design</a> -->
+                        <div class="content">
+                            <!-- <small>01 Dec, 2022</small> -->
+                            <h5>Diseño Gráfico</h5>
+                            <p>Desarrollar y ejecutar mensajes de comunicación visual que refuerzan y proyectan la personalidad de marca. Incluye aspectos informativos, de identidad, persuasión e innovación.</p>
+                        </div>
+                    </article>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -153,47 +180,61 @@
                 <div class="col-12">
                     <div class="intro">
                         <!-- <h6>Work</h6> -->
-                        <h1>Nuestros Clientes</h1>
+                        <h1>Galeria y Proyectos</h1>
                         <!-- <p class="mx-auto">Somos una empresa de publicidad con más de 10 años de experiencia, utilizamos nuestras habilidades creativas y experiencia en marketing para ayudar a nuestros clientes a promocionar sus negocios de manera efectiva. Nos aseguramos de entender las necesidades y objetivos de nuestros clientes, para desarrollar una estrategia de marketing personalizada que les permita alcanzar su audiencia de manera efectiva y obtener los resultados deseados.</p> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div id="projects-slider2" class="owl-theme2 owl-carousel">
+        <div id="projects-slider" class="owl-theme owl-carousel">
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete1.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Real Estate</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete2.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Construcción</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete5.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Publicidad</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/item-cart-01.jpg" alt="">
+                <img src="img/soliveri/slide/Carrete3.jpg" alt="">
                 <div class="content">
-                    <h2>Empresa</h2>
+                    <h2>Real Estate</h2>
                     <!-- <h6>Website Design</h6> -->
                 </div>
             </div>
-
-            
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="img/soliveri/slide/Carrete4.jpg" alt="">
+                <div class="content">
+                    <h2>Construcción</h2>
+                    <!-- <h6>Website Design</h6> -->
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="img/soliveri/slide/Carrete6.jpg" alt="">
+                <div class="content">
+                    <h2>Publicidad</h2>
+                    <!-- <h6>Website Design</h6> -->
+                </div>
+            </div>
         </div>
     </section>
 
@@ -225,7 +266,6 @@
             Diseñado por <a href="http://szystems.com"><font color="white">Szystems</font></a></span></strong> & <strong><span><a href="http://solivericorporativo.com"><font color="white">R-Publicidad</font></a>
         </div>
     </footer>
-
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
